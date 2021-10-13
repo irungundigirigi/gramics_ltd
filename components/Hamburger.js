@@ -12,7 +12,7 @@ const Hamburger = () => {
                    <Link href='/'>Home</Link>
                 </li>
                 <li className={styles.li}>
-                   <Link href='/'>Shop</Link>
+                   <Link href='/'>Services</Link>
                 </li>
                 <li className={styles.li}>
                    <Link href='/about'>About</Link>
