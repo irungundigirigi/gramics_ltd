@@ -46,6 +46,15 @@
 .hamburger {
   display: none;
 }
+.IoCall {
+  color: blue;
+}
+.callLabel {
+  padding-right: 10px;
+}
+.callIcon:hover {
+  color: darkblue;
+}
 @media only screen and (max-width: 600px) {
   .ul {
     display: none;

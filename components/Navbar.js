@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image'
 import styles from '../styles/Navbar.module.css';
 import Logo from '../public/icon.png';
-import { FaBars }  from 'react-icons/fa';
+import { FaBars, FaPhone }  from 'react-icons/fa';
 import Hamburger from '../components/Hamburger';
 
 
@@ -26,6 +26,13 @@ const Navbar = () => {
                 </div>
                 <span className={styles.logoLabel}>GRAMICS</span>
            </div>
+           <span className={styles.callContainer}>
+              <label className={styles.callLabel}>Call us</label>
+              <a href="tel:+254724647209">
+                  <FaPhone className={styles.callIcon}/>
+               </a>
+                 
+           </span>
            <ul className={styles.ul}>
                 <li className={styles.li}>
                    <Link href='/'>Home</Link>
@@ -40,6 +47,7 @@ const Navbar = () => {
                    <Link href='/about'>Contact</Link>
                 </li>
            </ul>
+           
            <div className={styles.hamburger}>
                <FaBars  className={styles.fabars} onClick={menuClicked}/>
               
