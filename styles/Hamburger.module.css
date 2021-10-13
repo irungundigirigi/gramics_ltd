@@ -6,6 +6,9 @@
   width: 50vw;
   height: calc(1000vh - 40px);
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-color: #f0f0f0;
+  color: #086972;
+  font-weight: bold;
 }
 .ul {
   list-style: none;
