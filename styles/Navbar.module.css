@@ -1,0 +1,60 @@
+.nav {
+  background-color: white;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  color: teal;
+  font-weight: bold;
+}
+.logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.hamburger {
+  flex: 1;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+}
+.ul {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.li {
+  text-align: center;
+  list-style: none;
+  line-height: 40px;
+  padding: 0 20px 0 20px;
+  background-color: lightskyblue;
+}
+.li:hover {
+  list-style: none;
+  color: white;
+  background-color: teal;
+}
+
+.logoLabel {
+  padding-left: 10px;
+}
+.hamburger {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .ul {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+    justify-content: center;
+  }
+  .fabars {
+    cursor: pointer;
+  }
+}

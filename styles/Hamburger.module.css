@@ -1,0 +1,24 @@
+.sidebar {
+  position: absolute;
+  top: 40px;
+  left: calc(100vw - 53vw);
+  z-index: 10;
+  width: 50vw;
+  height: calc(1000vh - 40px);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.li {
+  margin-top: 30px;
+}
+@media only screen and (min-width: 600px) {
+  .sidebar {
+    display: none;
+  }
+}
