@@ -1,13 +1,13 @@
 .sidebar {
   position: absolute;
   top: 40px;
-  left: 40%;
+  left: 50%;
   z-index: 10;
-  width: 40vw;
+  width: 50vw;
   height: calc(100% - 40px);
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-  background-color: cornflowerblue;
-  color: whitesmoke;
+  background-color: #f0f0f0;
+  color: steelblue;
   font-weight: bold;
 }
 .ul {
@@ -18,6 +18,9 @@
 }
 .li {
   margin-top: 30px;
+}
+.li:hover {
+  color: blue;
 }
 
 @media only screen and (min-width: 600px) {
