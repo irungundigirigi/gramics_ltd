@@ -1,12 +1,18 @@
 import React from 'react'
 import styles from '../styles/Hamburger.module.css'
 import Link from 'next/link';
+import { Transition, CSSTransition } from 'react-transition-group';
 
 
-const Hamburger = () => {
-
-    return (
-        <div className={styles.sidebar}>
+const Hamburger = ({in:inProps}) => (
+      
+      <CSSTransition 
+         in= {true}
+         timeout = {500}
+         classNames = {styles.sidebar}
+         unmountOnExit
+         >
+            <div className={styles.sidebar}>
             <ul className={styles.ul}>
                 <li className={styles.li}>
                    <Link href='/'>Home</Link>
@@ -22,7 +28,9 @@ const Hamburger = () => {
                 </li>
            </ul>
         </div>
+
+      </CSSTransition>
     )
-}
+
 
 export default Hamburger

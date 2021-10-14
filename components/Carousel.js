@@ -12,7 +12,10 @@ import Image from 'next/image';
 const Carousel = () => {
     return (
         <div className={styles.Carousel}>
-            <AliceCarousel className={styles.Carousel} autoPlay autoPlayInterval="2000">
+            <AliceCarousel 
+                disableButtonsControls= {true}
+                disableDotsControls = {true}
+                autoPlay autoPlayInterval="2000">
                 <Image src={Solar} className={styles.sliderImg}/>
                 <Image src={SolarHeaters} className={styles.sliderImg}/>
                 <Image src={DataCentre} className={styles.sliderImg}/>

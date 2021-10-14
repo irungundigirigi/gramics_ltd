@@ -1,13 +1,13 @@
 .sidebar {
   position: absolute;
   top: 40px;
-  left: calc(100vw - 53vw);
+  left: 40%;
   z-index: 10;
-  width: 50vw;
-  height: calc(1000vh - 40px);
+  width: 40vw;
+  height: calc(100% - 40px);
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-  background-color: #f0f0f0;
-  color: #086972;
+  background-color: cornflowerblue;
+  color: whitesmoke;
   font-weight: bold;
 }
 .ul {
@@ -15,11 +15,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 .li {
   margin-top: 30px;
 }
+
 @media only screen and (min-width: 600px) {
   .sidebar {
     display: none;
