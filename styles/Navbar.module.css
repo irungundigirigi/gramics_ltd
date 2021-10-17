@@ -1,11 +1,15 @@
 .nav {
   background-color: white;
   height: 40px;
+  width: 100vw;
   display: flex;
   align-items: center;
+  justify-content: center;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   color: teal;
   font-weight: bold;
+  position: fixed;
+  z-index: 10;
 }
 .logoContainer {
   display: flex;
@@ -53,6 +57,7 @@
 
 .logoLabel {
   padding-left: 10px;
+  font-size: 20px;
 }
 .hamburger {
   display: none;
@@ -75,6 +80,11 @@
     display: flex;
     justify-content: center;
   }
+  .hamburgerActive {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+  }
   .fabars {
     cursor: pointer;
   }
@@ -88,5 +98,11 @@
   }
   .hamburger {
     display: none;
+  }
+  .logoContainer {
+    justify-content: flex-end;
+  }
+  .social {
+    justify-content: flex-start;
   }
 }

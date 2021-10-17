@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+.grid {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: 5px;
+}
+
+.gridItem {
+  background-color: #fff;
+  border: 0.4rem;
+  overflow: hidden;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.2s;
+}
+.gridItem:hover {
+  transform: translateY(-0.5%);
+  box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+}
+.cardImg {
+  display: block;
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+}
+.cardContent {
+  padding: 3rem;
+}
+.cardHeader {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #0d0d0d;
+  margin-bottom: 1.5rem;
+}
+.cardText {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.7;
+  color: #3d3d3d;
+  margin-bottom: 2.5rem;
+}
+.cardBtn {
+  display: block;
+  width: 30%;
+
+  padding: 1.5rem;
+  font-size: 1rem;
+  text-align: center;
+  color: azure;
+  background-color: teal;
+  border: none;
+  border-radius: 0.4rem;
+  transition: 0.2s;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+}

@@ -11,9 +11,11 @@ import Hamburger from '../components/Hamburger';
 
 const Navbar = () => {
     const[inProps, setInProps] = useState(false)
+    const[style, setStyle] = useState(styles.hamburger)
 
     const menuClicked = () => {
        setInProps(!inProps)
+       setStyle(styles.hamburgerActive)
     }
     
     return (
@@ -42,11 +44,16 @@ const Navbar = () => {
                    <Link href='/'>Services</Link>
                 </li>
                 <li className={styles.li}>
+                   <Link href='/about'>Products</Link>
+                </li>
+                
+                <li className={styles.li}>
                    <Link href='/about'>About</Link>
                 </li>
                 <li className={styles.li}>
                    <Link href='/about'>Contact</Link>
                 </li>
+               
            </ul>
 
            <div className={styles.social}>
@@ -60,11 +67,11 @@ const Navbar = () => {
               
            </div>
        </nav>
-       <div className={styles.hamburgerMenu}>
-        {inProps && <Hamburger  />}
-       </div>
+       <div className={styles.hamburgerActive}>
+         {inProps && <Hamburger /> } 
+      </div>
+        
     </>   
     )
 }
-
 export default Navbar
