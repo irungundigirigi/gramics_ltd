@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from '../styles/welcome.module.css'
 import welcome from '../public/welcome.png'
+import { FaBars, FaPhone, FaFacebook, FaTwitter, FaInstagram }  from 'react-icons/fa';
 import Image from 'next/image'
 const Welcome = () => {
     return (
@@ -8,9 +9,15 @@ const Welcome = () => {
             <div className={styles.welcomeHeading }>
                 <Image src={welcome} ></Image>
             </div>
-            <p>
-            We are a Licensed Electrical Company specializing in  Solar Systems,Solar water pumps, Control Panels,Transformers, Generator Sales and Installation. 
-            </p>
+            <div className={styles.welcomeText}>
+            We are a Licensed Electrical Company specializing in  Solar Systems, Solar water pumps,  
+            Control Panels, Transformers, Generator Sales and Installation. 
+            </div>
+            <div className={styles.social}>
+                <FaFacebook className={styles.socialIcon}/>
+                <FaTwitter className={styles.socialIcon}/>
+                <FaInstagram className={styles.socialIcon }/>
+            </div>
             
         </div>
     )
