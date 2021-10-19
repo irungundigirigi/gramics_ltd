@@ -28,14 +28,6 @@ const Navbar = () => {
                 <span className={styles.logoLabel}>GRAMICS</span>
            </div>
 
-           <span className={styles.callContainer}>
-              <label className={styles.callLabel}>Call us</label>
-              <a href="tel:+254724647209">
-                  <FaPhone className={styles.callIcon}/>
-               </a>
-                 
-           </span>
-
            <ul className={styles.ul}>
                 <li className={styles.li}>
                    <Link href='/'>Home</Link>

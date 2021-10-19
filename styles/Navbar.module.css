@@ -62,17 +62,8 @@
 .hamburger {
   display: none;
 }
-.IoCall {
-  color: blue;
-}
-.callLabel {
-  padding-right: 10px;
-}
-.callIcon:hover {
-  color: darkblue;
-}
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .ul {
     display: none;
   }
@@ -90,6 +81,9 @@
   }
   .social {
     display: none;
+  }
+  .logoLabel {
+    font-size: 15px;
   }
 }
 @media only screen and (min-width: 600px) {
