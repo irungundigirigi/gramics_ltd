@@ -25,7 +25,7 @@
   object-fit: cover;
 }
 .cardContent {
-  padding: 3rem;
+  padding: 0rem;
 }
 .cardHeader {
   font-size: 2rem;
