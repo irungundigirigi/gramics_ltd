@@ -6,8 +6,8 @@
   min-height: 100%;
 }
 .aboutUs {
-  width: 60%;
-  height: 700px;
+  width: 80%;
+  height: auto;
 }
 
 @media only screen and (max-width: 720px) {

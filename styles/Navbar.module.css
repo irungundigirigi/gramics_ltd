@@ -86,17 +86,3 @@
     font-size: 15px;
   }
 }
-@media only screen and (min-width: 600px) {
-  .callContainer {
-    display: none;
-  }
-  .hamburger {
-    display: none;
-  }
-  .logoContainer {
-    justify-content: flex-end;
-  }
-  .social {
-    justify-content: flex-start;
-  }
-}

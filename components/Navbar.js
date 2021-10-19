@@ -48,12 +48,6 @@ const Navbar = () => {
                
            </ul>
 
-           <div className={styles.social}>
-               <Link className={styles.socialLink} href='/'><FaFacebook className={styles.socialLinkIcon} /></Link>
-               <Link className={styles.socialLink} href='/'><FaTwitter  className={styles.socialLinkIcon} /></Link>
-               <Link className={styles.socialLink} href='/'><FaInstagram  className={styles.socialLinkIcon} /></Link>
-           </div>
-           
            <div className={styles.hamburger}>
                <FaBars  className={styles.fabars} onClick={menuClicked}/>
               
