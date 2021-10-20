@@ -5,7 +5,7 @@ import "react-alice-carousel/lib/alice-carousel.css";
 import Solar from '../public/solar.png';
 import SolarHeaters from '../public/solar-heater.png';
 import DataCentre from '../public/data-centre.png';
-import Tranformers from '../public/transformers.png';
+import Transformers from '../public/transformers.png';
 
 import Image from 'next/image';
 import { Transition } from 'react-transition-group';
