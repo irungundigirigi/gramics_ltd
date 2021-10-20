@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 import styles from '../styles/postCard.module.css'
-import cardImage from '../public/data-centre.jpg'
 import Carousel from './Carousel'
 
 const PostCard = () => {
