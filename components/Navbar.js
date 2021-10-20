@@ -27,7 +27,7 @@ const Navbar = () => {
                 <div className={styles.logo}>
                         <Image src={Logo} />
                 </div>
-                <span className={styles.logoLabel}>GRAMICS</span>
+                <span className={styles.logoLabel}></span>
            </div>
 
            <div style={style.linksHolder }>
