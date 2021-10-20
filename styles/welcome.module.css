@@ -12,8 +12,11 @@
   color: #364f6b;
 }
 .welcomeHeading {
+  display: flex;
+  justify-content: center;
   font-size: 30px;
 }
+
 .welcomeText {
   font-size: 15px;
   font-weight: 500;
