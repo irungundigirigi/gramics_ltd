@@ -4,18 +4,20 @@ import Image from 'next/image'
 import styles from '../styles/Navbar.module.css';
 import Logo from '../public/icon.png';
 import { FaBars, FaPhone, FaFacebook, FaTwitter, FaInstagram }  from 'react-icons/fa';
-import Hamburger from '../components/Hamburger';
+import { AiOutlineClose } from 'react-icons/ai'
+
 
 
 
 
 const Navbar = () => {
     const[inProps, setInProps] = useState(false)
-    const[style, setStyle] = useState(styles.hamburger)
+    const[style, setStyle] = useState('styles.linksHolder')
 
     const menuClicked = () => {
        setInProps(!inProps)
-       setStyle(styles.hamburgerActive)
+       setStyle('styles.linksHolder-active')
+       
     }
     
     return (
@@ -28,7 +30,8 @@ const Navbar = () => {
                 <span className={styles.logoLabel}>GRAMICS</span>
            </div>
 
-           <ul className={styles.ul}>
+           <div style={style.linksHolder }>
+              <ul className={styles.ul}>
                 <li className={styles.li}>
                    <Link href='/'>Home</Link>
                 </li>
@@ -45,17 +48,35 @@ const Navbar = () => {
                 <li className={styles.li}>
                    <Link href='/about'>Contact</Link>
                 </li>
-               
-           </ul>
-
+               </ul>
+            </div>
+            <div className={styles.search}>
+            </div>
            <div className={styles.hamburger}>
-               <FaBars  className={styles.fabars} onClick={menuClicked}/>
-              
+               {inProps?<AiOutlineClose   onClick={menuClicked}/> : <FaBars  className={styles.fabars} onClick={menuClicked}/> }
            </div>
+           <div className={styles.mobileLinks }>
+              <ul className={inProps? styles.mobileUl: styles.mobileUlOff}>
+                <li className={styles.mobileLi}>
+                   <Link href='/'><span className={styles.span}><span className={styles.linkText}>Home</span></span></Link>
+                </li>
+                <li className={styles.mobileLi}>
+                   <Link href='/'>Services</Link>
+                </li>
+                <li className={styles.mobileLi}>
+                   <Link href='/about'>Products</Link>
+                </li>
+                
+                <li className={styles.mobileLi}>
+                   <Link href='/about'>About</Link>
+                </li>
+                <li className={styles.mobileLi}>
+                   <Link href='/about'>Contact</Link>
+                </li>
+               </ul>
+            </div>
        </nav>
-       <div className={styles.hamburgerActive}>
-         {inProps && <Hamburger /> } 
-      </div>
+      
         
     </>   
     )

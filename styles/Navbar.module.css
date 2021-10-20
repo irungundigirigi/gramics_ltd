@@ -14,34 +14,36 @@
 .logoContainer {
   display: flex;
   align-items: center;
-  justify-content: center;
+  margin-left: 10vw;
+  justify-content: start;
+  flex: 2;
+}
+.linksHolder {
+  display: flex;
+  flex: 1;
+  justify-content: start;
+  align-items: center;
+  text-decoration: none;
+}
+.search {
   flex: 1;
 }
-.hamburger {
-  flex: 1;
+.mobileLinks {
+  display: none;
 }
+.mobileUl {
+  display: none;
+}
+
 .logo {
   width: 30px;
   height: 30px;
 }
 .ul {
-  flex: 2;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
+  flex-direction: row;
 }
-.social {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.socialLinkIcon {
-  margin-right: 20px;
-  width: 20px;
-  height: 20px;
-}
+
 .li {
   text-align: center;
   list-style: none;
@@ -63,25 +65,75 @@
   display: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 700px) {
+  .mobileUl {
+    position: absolute;
+    right: -10px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    width: 60vw;
+    top: 4px;
+    height: 100vh;
+    background-color: teal;
+    transition: 850ms;
+  }
+  .mobileUlOff {
+    top: 4px;
+    position: absolute;
+    right: -200px;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 100vh;
+    transition: 650ms;
+  }
+
+  .mobileLinks {
+    position: absolute;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  .mobileLi {
+    list-style: none;
+    padding: 15px;
+    color: white;
+    margin: 10px auto;
+    width: 100%;
+    text-decoration: none;
+  }
+  .mobileLi:hover {
+    background-color: royalblue;
+  }
+
+  .nav {
+    width: 100vw;
+  }
+
+  .logoContainer {
+    margin-left: 10px;
+  }
   .ul {
     display: none;
   }
-  .hamburger {
-    display: flex;
-    justify-content: center;
-  }
-  .hamburgerActive {
-    display: flex;
-    justify-content: center;
-    background-color: red;
-  }
-  .fabars {
-    cursor: pointer;
-  }
-  .social {
+  .linksHolder {
     display: none;
   }
+
+  .hamburger {
+    position: absolute;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .fabars {
+    cursor: pointer;
+    font-size: 20px;
+  }
+
   .logoLabel {
     font-size: 15px;
   }
