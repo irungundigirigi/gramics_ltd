@@ -76,15 +76,15 @@
     justify-content: start;
     flex-direction: column;
     width: 60vw;
-    top: 4px;
+    top: 59px;
     height: 100vh;
-    background-color: teal;
+    background-color: rgb(18, 186, 223);
     transition: 850ms;
   }
   .mobileUlOff {
-    top: 4px;
+    top: 60px;
     position: absolute;
-    right: -200px;
+    right: -100vw;
     display: flex;
     flex-direction: column;
     width: 50vw;
@@ -99,6 +99,7 @@
     flex-direction: column;
   }
   .mobileLi {
+    font-weight: bold;
     list-style: none;
     padding: 15px;
     color: white;

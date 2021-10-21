@@ -53,7 +53,7 @@ const Navbar = () => {
             <div className={styles.search}>
             </div>
            <div className={styles.hamburger}>
-               {inProps?<AiOutlineClose   onClick={menuClicked}/> : <FaBars  className={styles.fabars} onClick={menuClicked}/> }
+               {inProps?<AiOutlineClose  className={styles.fabars}  onClick={menuClicked}/> : <FaBars  className={styles.fabars} onClick={menuClicked}/> }
            </div>
            <div className={styles.mobileLinks }>
               <ul className={inProps? styles.mobileUl: styles.mobileUlOff}>

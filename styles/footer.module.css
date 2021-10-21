@@ -2,15 +2,41 @@
 .footer {
   font-family: "Poppins", sans-serif;
   display: flex;
+  flex-direction: row;
   width: 100vw;
-  height: 140px;
+  height: 170px;
   background-color: #364f6b;
-  text-align: center;
+  text-align: left;
   align-content: center;
-  flex-direction: column;
+  justify-content: space-around;
   font-size: 14px;
   padding: 20px;
 }
+.footerText {
+  display: flex;
+  align-items: center;
+}
 .footerAdress {
   color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footerIcons {
+  margin: 5px 10px;
+}
+.partners {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footerLogoContainer {
+  width: 90px;
+  height: 40px;
+  margin: 20px;
+}
+@media only screen and (max-width: 700px) {
+  .footer {
+    flex-direction: column;
+  }
 }
