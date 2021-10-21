@@ -34,7 +34,7 @@ const Footer = () => {
             </div>
             <div className={styles.footerAdress}>
                 <div className={styles.footerText}><FaPhone className={styles.footerIcons} /><span>0724647209 0737898643</span></div>
-                <div className={styles.footerText}><IoIosMail className={styles.footerIcons}/><span>gramicspowersystems@gmail.com</span></div>
+                <div className={styles.footerText}><IoIosMail className={styles.footerIcons}/><span>office@gramics.co.ke</span></div>
                 <div className={styles.footerText}><MdLocationOn className={styles.footerIcons}/><span>Gill Hse, 1st Floor, Suite 16</span></div>
             </div>
         </div>
