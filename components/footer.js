@@ -6,7 +6,7 @@ import {FaPhone} from 'react-icons/fa'
 import epra from '../public/epra.png'
 import nca from '../public/nca.png'
 import rerec from '../public/rerec.png'
-import kplc from '../public/kplc.jpeg'
+import kplc from '../public/kplc.png'
 import Image from 'next/image'
 
 
