@@ -2,7 +2,7 @@
 .footer {
   font-family: "Poppins", sans-serif;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 100vw;
   height: 200px;
   background-color: #364f6b;
@@ -27,17 +27,26 @@
 }
 .partners {
   display: flex;
+  flex-wrap: nowrap;
   flex-direction: row;
   align-items: center;
 }
 .footerLogoContainer {
   width: 250px;
-
   height: 50px;
   margin: 5px;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 500px) {
   .footer {
-    flex-direction: column;
+    height: 230px;
+  }
+  .partners {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .footerLogoContainer {
+    width: 100px;
+    height: 50px;
+    margin: 5px;
   }
 }
