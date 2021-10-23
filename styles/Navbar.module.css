@@ -22,17 +22,17 @@
 .linksHolder {
   display: flex;
   flex: 1;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   text-decoration: none;
 }
 .search {
   flex: 1;
 }
-.mobileLinks {
+.menu {
   display: none;
 }
-.mobileUl {
+.sidebar {
   display: none;
 }
 
@@ -67,50 +67,74 @@
 }
 
 @media only screen and (max-width: 700px) {
-  .mobileUl {
-    font-family: "Montserrat", sans-serif;
-    position: absolute;
-    right: -10px;
+  .menu {
+    display: block;
     width: 100%;
-    display: flex;
-    justify-content: start;
-    flex-direction: column;
-    width: 60vw;
-    top: 59px;
-    height: 100vh;
-    background-color: rgb(18, 186, 223);
-    transition: 850ms;
   }
-  .mobileUlOff {
-    top: 60px;
+  .sidebarOff {
+    top: 150px;
     position: absolute;
     right: -100vw;
-    display: flex;
-    flex-direction: column;
     width: 50vw;
-    height: 100vh;
+    min-height: 100vh;
     transition: 650ms;
   }
 
-  .mobileLinks {
-    position: absolute;
-    right: 0px;
+  .sidebar {
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    width: 60vw;
+    height: 100vh;
+    right: -10px;
+    top: 150px;
+    overflow-y: auto;
+    position: fixed;
+    background-color: rgba(13, 51, 60, 0.8);
+    backdrop-filter: blur(10px);
+    transition: 850ms;
+  }
+  .link {
     display: flex;
-    flex-direction: column;
-  }
-  .mobileLi {
-    font-weight: bold;
-    list-style: none;
-    padding: 15px;
-    color: white;
-    margin: 10px auto;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
     width: 100%;
-    text-decoration: none;
-  }
-  .mobileLi:hover {
-    background-color: royalblue;
   }
 
+  .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+    line-height: 40px;
+    padding: 0px 0px;
+  }
+  .link:hover {
+    background-color: royalblue;
+    transition: 0.3s ease;
+  }
+  .menuIcon {
+    margin: 0px 10px 0 10px;
+  }
+  .subMenu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2px 20px;
+    font-size: 14px;
+  }
+  .subMenuOff {
+    display: none;
+  }
+
+  .dropDown {
+    position: absolute;
+    cursor: pointer;
+    right: 0;
+    margin-right: 20px;
+    font-size: 30px;
+  }
   .nav {
     width: 100vw;
   }
