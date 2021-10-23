@@ -11,7 +11,7 @@ const Welcome = () => {
             </div>
             <div className={styles.welcomeText}>
                 We are a market leader and Licensed Electrical Company specializing in Solar Systems, Solar water pumps,
-                Control Panels, Transformers, Generator Sales, Installation and services. We are commited to providing customized 
+                Control Panels, Transformers and Generators; Sales, Installation and Maintanance. We are commited to providing customized 
                 solution to every client.
             </div>
             <div className={styles.social}>
