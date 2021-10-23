@@ -27,9 +27,11 @@ const Navbar = () => {
     }
     const toggleServiceMenu = () => {
        setServiceMenu(!serviceMenu)
+       setProductsMenu(false)
     }
     const toggleProductsMenu = () => {
       setProductsMenu(!productsMenu)
+      setServiceMenu(false)
    }
     
     return (
