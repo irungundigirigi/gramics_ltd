@@ -17,6 +17,8 @@ import {IoIosMail} from 'react-icons/io'
 const Navbar = () => {
     const[inProps, setInProps] = useState(false)
     const[serviceMenu, setServiceMenu] = useState(false)
+    const[productsMenu, setProductsMenu] = useState(false)
+    
   
 
     const menuClicked = () => {
@@ -26,6 +28,9 @@ const Navbar = () => {
     const toggleServiceMenu = () => {
        setServiceMenu(!serviceMenu)
     }
+    const toggleProductsMenu = () => {
+      setProductsMenu(!productsMenu)
+   }
     
     return (
     <>
@@ -79,20 +84,24 @@ const Navbar = () => {
                      <RiArrowDropDownLine className={styles.dropDown} onClick={toggleServiceMenu}/>
                    </div>
                    <div className={serviceMenu? styles.subMenu: styles.subMenuOff}>
-                     <Link href='/'>Solar Systems</Link>
+                     <Link href='/'>Solar Systems  </Link>
                      <Link href='/'>Solar water pumps </Link>
                      <Link href='/'>Control panels</Link>
                      <Link href='/'>Transformers</Link>
                      <Link href='/'>Generators</Link>
-
-
                    </div>
                 </item>
                 <item className={styles.item}>
                    <div className={styles.link}>
                      <MdElectricalServices className={styles.menuIcon}/>
                      <Link href='/about'>Products</Link>
-                     <RiArrowDropDownLine className={styles.dropDown} />
+                     <RiArrowDropDownLine className={styles.dropDown} onClick={toggleProductsMenu}/>
+                   </div>
+                   <div className={productsMenu? styles.subMenu: styles.subMenuOff}>
+                     <Link href='/'>Solar panels  </Link>
+                     <Link href='/'>Solar water pump </Link>
+                     <Link href='/'>Transformers</Link>
+                     <Link href='/'>Generators</Link>
                    </div>
                 </item>
                 
