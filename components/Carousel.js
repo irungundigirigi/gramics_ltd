@@ -6,6 +6,9 @@ import Solar from '../public/solar.png';
 import SolarHeaters from '../public/solar-heater.png';
 import DataCentre from '../public/data-centre.png';
 import Transformers from '../public/transformers.png';
+import Renewable from '../public/renewable.png'
+
+
 
 import Image from 'next/image';
 import { Transition } from 'react-transition-group';
@@ -23,6 +26,7 @@ const Carousel = () => {
                 <Image src={Solar} className={styles.sliderImg}/>
                 <Image src={SolarHeaters} className={styles.sliderImg}/>
                 <Image src={DataCentre} className={styles.sliderImg}/>
+                <Image src={Renewable} className={styles.sliderImg}/>
             </AliceCarousel>
         </div>
     )

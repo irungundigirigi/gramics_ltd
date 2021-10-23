@@ -10,7 +10,7 @@
   height: auto;
   justify-content: center;
   color: #364f6b;
-  margin-top: 150px;
+  margin-top: 140px;
 }
 .welcomeHeading {
   display: flex;
@@ -19,8 +19,9 @@
 }
 
 .welcomeText {
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 500;
+  margin-top: 10px;
 }
 .socialIcon {
   color: #364f6b;

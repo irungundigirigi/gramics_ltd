@@ -25,6 +25,9 @@ import Image from 'next/image'
 const Footer = () => {
     return (
         <div className = {styles.footer}>
+             <div className={styles.label}>OUR PARTNERS</div>
+            
+           
             <div className={styles.partners}>
                 <div className={styles.footerLogoContainer}>
                     <Image src={epra} className={styles.footerLogo} /> 
@@ -49,7 +52,8 @@ const Footer = () => {
                 </div>
             </div>
             
-            
+            <div className={styles.label}>GET IN TOUCH</div>
+
             <div className={styles.footerAdress}>
                 <div className={styles.footerText}><FaPhone className={styles.footerIcons} /><span>0724647209 0737898643</span></div>
                 <div className={styles.footerText}><IoIosMail className={styles.footerIcons}/><span>office@gramics.co.ke</span></div>
