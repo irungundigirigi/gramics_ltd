@@ -90,7 +90,7 @@ const Navbar = () => {
                      <Link href='/'>Solar water pumps </Link>
                      <Link href='/'>Control panels</Link>
                      <Link href='/'>Transformers</Link>
-                     <Link href='/'>Generators</Link>
+                     <Link href='/products/1'>Generators</Link>
                    </div>
                 </item>
                 <item className={styles.item}>

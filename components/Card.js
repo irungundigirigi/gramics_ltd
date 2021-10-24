@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/postCard.module.css'
 import Carousel from './Carousel'
 
-const PostCard = () => {
+const Card = () => {
     return (
     <div className={styles.grid}>
         <div className={styles.gridItem}>
