@@ -2,7 +2,7 @@ import Generator from '../public/generators.jpeg'
 import Solar from '../public/solarS.png'
 import Transformers from '../public/transformersS.png'
 import Solarpumps from '../public/solarpumpS.png'
-import ControlPanel from '../public/controlPanelS.png'
+
 
 export const Products = [
     {
