@@ -6,8 +6,8 @@ import styles from '../../styles/Solutions.module.css'
 
 
 const Solutions = () => {
-     const router = useRouter()
-     const  pid = router.query.productId
+    const router = useRouter()
+    const  pid = router.query.productId
     var product = Products.find(p => p.pId == pid)
     console.log(product)
 
