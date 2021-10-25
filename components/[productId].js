@@ -1,8 +1,8 @@
 import { useRouter } from 'next/router'
-import { Products } from '../../data/products'
+import { Products } from '../data/products'
 import React from 'react'
 import Image from 'next/image'
-import styles from '../../styles/Solutions.module.css'
+import styles from '/../styles/Solutions.module.css'
 
 
 const Solutions = () => {
