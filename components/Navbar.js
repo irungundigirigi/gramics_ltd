@@ -3,12 +3,13 @@ import Link from 'next/link';
 import Image from 'next/image'
 import styles from '../styles/Navbar.module.css';
 import Logo from '../public/icon.png';
-import { FaBars, FaToggleOff }  from 'react-icons/fa';
+import { FaBars, FaSolarPanel, FaToggleOff }  from 'react-icons/fa';
 import {MdElectricalServices, } from 'react-icons/md'
 import {GiElectric} from 'react-icons/gi'
 import { AiOutlineClose,AiFillHome  } from 'react-icons/ai'
 import {RiArrowDropDownLine} from 'react-icons/ri'
 import {IoIosMail} from 'react-icons/io'
+import {BiNews} from 'react-icons/bi'
 
 
 
@@ -81,38 +82,39 @@ const Navbar = () => {
                 </item>
                 <item className={styles.item}>
                    <div className={styles.link}>
-                     <GiElectric className={styles.menuIcon}/>
-                     <div>Services</div>
+                     <FaSolarPanel className={styles.menuIcon}/>
+                     <div>Solutions</div>
                      <RiArrowDropDownLine className={styles.dropDown} onClick={toggleServiceMenu}/>
                    </div>
                    <div className={serviceMenu? styles.subMenu: styles.subMenuOff}>
-                     <Link href='/'>Solar Systems  </Link>
-                     <Link href='/'>Solar water pumps </Link>
+                     <Link href='/solutions/solar'>Solar Systems  </Link>
+                     <Link href='/solutions/solar-pumps'>Solar water pumps </Link>
                      <Link href='/'>Control panels</Link>
-                     <Link href='/'>Transformers</Link>
-                     <Link href='/products/1'>Generators</Link>
+                     <Link href='/solutions/transformers'>Transformers</Link>
+                     <Link href='/solutions/generators'>Generators</Link>
+                   </div>
+                </item>
+                
+                <item className={styles.item}>
+                   <div className={styles.link}>
+                     <GiElectric className={styles.menuIcon}/>
+                     <Link href='/about'>Projects</Link>
                    </div>
                 </item>
                 <item className={styles.item}>
                    <div className={styles.link}>
-                     <MdElectricalServices className={styles.menuIcon}/>
-                     <Link href='/about'>Products</Link>
-                     <RiArrowDropDownLine className={styles.dropDown} onClick={toggleProductsMenu}/>
-                   </div>
-                   <div className={productsMenu? styles.subMenu: styles.subMenuOff}>
-                     <Link href='/'>Solar panels  </Link>
-                     <Link href='/'>Solar water pump </Link>
-                     <Link href='/'>Transformers</Link>
-                     <Link href='/'>Generators</Link>
+                     <BiNews className={styles.menuIcon}/>
+                     <Link href='/about'>Read</Link>
                    </div>
                 </item>
-                
+
                 <item className={styles.item}>
                    <div className={styles.link}>
                      <IoIosMail className={styles.menuIcon}/>
                      <Link href='/about'>Contact</Link>
                    </div>
                 </item>
+                
                </div>
             </div>
        </nav>
