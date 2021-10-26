@@ -53,15 +53,13 @@
   width: 100%;
   height: 30px;
   border: none;
-  color: aliceblue;
+
   font-weight: bold;
 }
-.btn:hover {
-  background-color: whitesmoke;
-}
+
 .arrow {
   color: dodgerblue;
-  font-size: 18px;
+  font-size: 20px;
 }
 @media only screen and (max-width: 700px) {
   .blogCard {
