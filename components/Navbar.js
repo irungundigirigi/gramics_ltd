@@ -87,8 +87,8 @@ const Navbar = () => {
                      <RiArrowDropDownLine className={styles.dropDown} onClick={toggleServiceMenu}/>
                    </div>
                    <div className={serviceMenu? styles.subMenu: styles.subMenuOff}>
-                     <Link href='/solutions/solar'>Solar Systems  </Link>
-                     <Link href='/solutions/solar-pumps'>Solar water pumps </Link>
+                     <Link href='/solutions/solarpanels'>Solar Systems  </Link>
+                     <Link href='/solutions/solar-water-pumping-system'>Solar water pumps </Link>
                      <Link href='/'>Control panels</Link>
                      <Link href='/solutions/transformers'>Transformers</Link>
                      <Link href='/solutions/generators'>Generators</Link>
