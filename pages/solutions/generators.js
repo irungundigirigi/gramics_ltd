@@ -15,7 +15,7 @@ const Generators = () => {
             works when you need it most. This guarantees emergency power for critical systems in
             the event of a power failure.We have long term experience in quality generator installation
             and maintenance for domestic and institutional needs. We also supply quality power generators
-            at an affordable price. YY
+            at an affordable price.
         </div>
     </div>
     ) 

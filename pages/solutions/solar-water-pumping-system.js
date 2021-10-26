@@ -13,8 +13,8 @@ const SolarPumpingSystem = () => {
         <div className={styles.productText}>
             Solar pumping systems are a solution to  the need of water in remote areas with no 
             electricity supply while understanding the importance of Green renewable energy.
-             A solar pumping system is simple and includes the solar panel, the pump and the controller.
-              We will install this system and provide  maintenance services to ensure the water keeps flowing clean.
+            A solar pumping system is simple and includes the solar panel, the pump and the controller.
+            We will install this system and provide  maintenance services to ensure the water keeps flowing clean.
 
         </div>
     </div>

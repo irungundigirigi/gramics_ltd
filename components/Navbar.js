@@ -89,7 +89,8 @@ const Navbar = () => {
                    <div className={serviceMenu? styles.subMenu: styles.subMenuOff}>
                      <Link href='/solutions/solarpanels'>Solar Systems  </Link>
                      <Link href='/solutions/solar-water-pumping-system'>Solar water pumps </Link>
-                     <Link href='/'>Control panels</Link>
+                     <Link href='/solutions/solar-water-heating-system'>Solar Heating System </Link>
+                     <Link href='/solutions/control-panels'>Control panels</Link>
                      <Link href='/solutions/transformers'>Transformers</Link>
                      <Link href='/solutions/generators'>Generators</Link>
                    </div>
