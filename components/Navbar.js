@@ -105,7 +105,7 @@ const Navbar = () => {
                 <item className={styles.item}>
                    <div className={styles.link}>
                      <BiNews className={styles.menuIcon}/>
-                     <Link href='/about'>Read</Link>
+                     <Link href='/featured'>Featured</Link>
                    </div>
                 </item>
 

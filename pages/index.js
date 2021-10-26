@@ -6,6 +6,7 @@ import PostCard from '../components/PostCard'
 import Welcome from '../components/Welcome'
 
 
+
 export default function Home() {
   return (
     <div className={styles.pageContainer}>
@@ -13,10 +14,6 @@ export default function Home() {
       <div className={styles.aboutUs}>
          <PostCard/>
       </div>
-        
-      
     </div>
-  
-    
   )
 }

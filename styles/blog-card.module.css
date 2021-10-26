@@ -1,0 +1,71 @@
+.blogCard {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #512b58;
+  width: 100%;
+  height: auto;
+
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background-color: white;
+}
+.blogImageContainer {
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+}
+.blogImage {
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.blogContent {
+  padding: 10px 5px;
+}
+.blogText {
+  display: flex;
+  flex-direction: row;
+}
+.blogHeader {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.line {
+  width: 20px;
+  margin-right: 5px;
+  height: auto;
+  background-color: #512b58;
+}
+.paragraphOn {
+  max-height: 80px;
+  overflow-y: hidden;
+}
+.paragraph {
+  max-height: auto;
+}
+.btnHolder {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.btn {
+  border-radius: 2px;
+  margin-top: 10px;
+  width: 100%;
+  height: 30px;
+  border: none;
+  color: aliceblue;
+  font-weight: bold;
+}
+.btn:hover {
+  background-color: whitesmoke;
+}
+.arrow {
+  color: dodgerblue;
+  font-size: 18px;
+}
+@media only screen and (max-width: 700px) {
+  .blogCard {
+    width: 100%;
+  }
+}
