@@ -1,16 +1,25 @@
 .featured {
   font-family: "Poppins", sans-serif;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   margin-top: 150px;
   font-size: 20px;
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
+}
+.feature {
+  margin: 10px 5px;
+  margin-top: 150px;
 }
 @media only screen and (max-width: 700px) {
   .featured {
     margin-top: 150px;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .feature {
+    margin-top: 0;
   }
 }

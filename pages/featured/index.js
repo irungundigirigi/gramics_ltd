@@ -5,8 +5,12 @@ import Feature2 from "./feature2"
 const Featured = () => {
     return (
         <div className={styles.featured}>
-           <Feature1 />
-           <Feature2 />
+            <div className={styles.feature}>
+             <Feature1 />
+            </div>
+            <div className={styles.feature}>
+             <Feature2 />
+            </div>
         </div>
     )
 
