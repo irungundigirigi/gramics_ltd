@@ -3,6 +3,7 @@
   background-color: white;
   height: 150px;
   width: 100vw;
+  padding: 5px 15px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,13 +16,11 @@
 .logoContainer {
   display: flex;
   align-items: center;
-  margin-left: 10vw;
   justify-content: start;
-  flex: 2;
+  flex: 1;
 }
 .linksHolder {
   display: flex;
-  flex: 1;
   justify-content: flex-start;
   align-items: center;
   text-decoration: none;
@@ -40,22 +39,33 @@
   width: 130px;
   height: 130px;
 }
-.ul {
+.webItem {
   display: flex;
   flex-direction: row;
 }
 
 .li {
+  cursor: pointer;
   text-align: center;
   list-style: none;
+}
+.Link {
   line-height: 40px;
   padding: 0 20px 0 20px;
-  background-color: lightskyblue;
+  cursor: pointer;
 }
-.li:hover {
+.Link:hover {
   list-style: none;
-  color: white;
-  background-color: teal;
+  background: dodgerblue;
+  color: #fff;
+  transition: all ease 0.3s;
+}
+
+.LinkWithSubmenu:hover {
+  list-style: none;
+  background: dodgerblue;
+  color: #fff;
+  transition: all ease 0.3s;
 }
 
 .logoLabel {
@@ -65,7 +75,33 @@
 .hamburger {
   display: none;
 }
+.LinkWithSubmenu {
+  position: relative;
+  height: 40px;
+}
 
+.LinkWithSubmenu:hover > .webSubmenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+  top: 40px;
+  height: 200px;
+  width: 250px;
+  padding: 10px;
+  text-transform: uppercase;
+}
+.LinkWithSubmenu:hover > .webSubmenu > *:hover {
+  font-weight: bolder;
+  transition: all ease 0.2s;
+}
+.webSubmenu {
+  position: absolute;
+  top: 40px;
+  background: rgb(37, 122, 206);
+  color: #fff;
+  display: none;
+}
 @media only screen and (max-width: 700px) {
   .menu {
     display: block;

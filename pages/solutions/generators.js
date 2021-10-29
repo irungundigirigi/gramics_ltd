@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import styles from '../../styles/Solutions.module.css'
-import generators from '../../public/generators.jpeg'
+import generators from '../../public/generators.png'
 
 
 const Generators = () => {

@@ -38,33 +38,43 @@ const Navbar = () => {
     return (
     <>
        <nav className={styles.nav}>
-           <div className={styles.logoContainer}>
+            <div className={styles.logoContainer}>
                 <div className={styles.logo}>
                         <Image src={Logo} />
                 </div>
                 <span className={styles.logoLabel}></span>
-           </div>
+            </div>
 
-           <div className={styles.linksHolder }>
-              <ul className={styles.ul}>
-                <li className={styles.li}>
-                  
-                   <Link href='/'>Home</Link>
-                </li>
-                <li className={styles.li}>
-                   <Link href='/'>Services</Link>
-                </li>
-                <li className={styles.li}>
-                   <Link href='/about'>Products</Link>
-                </li>
-                
-                <li className={styles.li}>
-                   <Link href='/about'>About</Link>
-                </li>
-                <li className={styles.li}>
-                   <Link href='/about'>Contact</Link>
-                </li>
-               </ul>
+            <div className={styles.linksHolder }>
+              <div className={styles.webItem}>
+                  <Link  href='/'>
+                      <span className={styles.Link}>HOME</span >
+                  </Link>
+
+                   <div className={styles.LinkWithSubmenu}>
+                        <span className={styles.Link}>SOLUTIONS</span >
+                        <div className={styles.webSubmenu}>
+                           <Link href='/solutions/solarpanels'>Solar Systems  </Link>
+                           <Link href='/solutions/solar-water-pumping-system'>Solar water pumps </Link>
+                           <Link href='/solutions/solar-water-heating-system'>Solar Heating System </Link>
+                           <Link href='/solutions/control-panels'>Control panels</Link>
+                           <Link href='/solutions/transformers'>Transformers</Link>
+                           <Link href='/solutions/generators'>Generators</Link>
+                        </div>
+                   </div>
+
+                   <Link href='/projects'>
+                      <span className={styles.Link}>PROJECTS</span >
+                   </Link>
+
+                   <Link href='/featured'>
+                      <span className={styles.Link}>FEATURED</span >
+                   </Link>
+
+                   <Link href='/contact'>
+                      <span className={styles.Link}>CONTACT US</span >
+                   </Link>
+               </div>
             </div>
             <div className={styles.search}>
             </div>
