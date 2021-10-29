@@ -11,8 +11,10 @@ const Transformers = () => {
             <Image className={styles.image} src={transformers} />
         </div>    
         <div className={styles.productText}>
+            <p>
             A transformers are one of the most important compoments in your sub station and you can be confident that 
-             we will assemble or repair it right
+             we will assemble or repair it right.
+            </p>
         </div>
     </div>
     ) 
