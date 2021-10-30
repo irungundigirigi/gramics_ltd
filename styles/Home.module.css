@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap");
 .pageContainer {
   display: flex;
   flex-wrap: wrap;
@@ -8,6 +9,9 @@
 .aboutUs {
   width: 80%;
   height: auto;
+}
+.otherServices {
+  font-family: "Poppins", sans-serif;
 }
 
 @media only screen and (max-width: 720px) {
