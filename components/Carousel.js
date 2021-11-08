@@ -6,7 +6,7 @@ import Solar from '../public/solar.png';
 import SolarHeaters from '../public/solar-heater.png';
 import DataCentre from '../public/data-centre.png';
 import Transformers from '../public/transformers.png';
-import GeneratorSales from '../public/GeneratorSales.png';
+import GeneratorSales from '../public/GeneratorsSales.png';
 import Renewable from '../public/renewable.png'
 
 
