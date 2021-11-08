@@ -3,7 +3,7 @@
   background-color: white;
   height: 150px;
   width: 100vw;
-  padding: 5px 15px;
+  padding: 5px 10vw 5px 120px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -103,6 +103,9 @@
   display: none;
 }
 @media only screen and (max-width: 700px) {
+  .nav {
+    padding-left: 10px;
+  }
   .menu {
     display: block;
     width: 100%;

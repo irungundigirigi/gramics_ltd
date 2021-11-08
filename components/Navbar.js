@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import Link from 'next/link';
 import Image from 'next/image'
 import styles from '../styles/Navbar.module.css';
-import Logo from '../public/icon.png';
+import Logo from '../public/icon.svg';
 import { FaBars, FaSolarPanel, FaToggleOff }  from 'react-icons/fa';
 import {MdElectricalServices, } from 'react-icons/md'
 import {GiElectric} from 'react-icons/gi'
