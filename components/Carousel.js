@@ -21,7 +21,7 @@ const Carousel = () => {
         <div className={styles.Carousel}>
             <AliceCarousel 
                 disableButtonsControls= {true}
-                disableDotsControls = {true}
+                disableDotsControls = {false}
                 autoPlay autoPlayInterval="4000">
                 <Image src={Transformers} className={styles.sliderImg}/>
                 <Image src={Solar} className={styles.sliderImg}/>
