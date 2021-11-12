@@ -71,7 +71,7 @@ const Navbar = () => {
                       <span className={styles.Link}>FEATURED</span >
                    </Link>
 
-                   <Link href='/contact'>
+                   <Link href='/contact-us'>
                       <span className={styles.Link}>CONTACT US</span >
                    </Link>
                </div>
