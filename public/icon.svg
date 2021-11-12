@@ -44,7 +44,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.45254835"
      inkscape:cx="198.03944"
-     inkscape:cy="543.63889"
+     inkscape:cy="549.16316"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -64,7 +64,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -111,7 +111,7 @@
        xml:space="preserve"
        id="text850"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Nixmat;-inkscape-font-specification:'Nixmat, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect852);fill:#0044aa;fill-opacity:1;stroke:none;"
-       transform="matrix(3.4543722,0,0,3.9295428,-90.997108,-509.55626)"><tspan
+       transform="matrix(3.4543722,0,0,3.9295428,-86.394543,-509.38453)"><tspan
          x="30.681641"
          y="176.13135"><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Nixmat;-inkscape-font-specification:'Nixmat, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0044aa">GRAMICS</tspan></tspan></text>
@@ -123,7 +123,7 @@
        xml:space="preserve"
        id="text862"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;line-height:1.25;font-family:Nixmat;-inkscape-font-specification:'Nixmat, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect864);fill:#0088aa;fill-opacity:1;stroke:none;"
-       transform="matrix(1.6643185,0,0,1.9001066,-6.1879546,-206.62135)"><tspan
+       transform="matrix(1.6643185,0,0,1.9001066,-1.1312887,-204.92929)"><tspan
          x="11.595703"
          y="212.62744"><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833px;font-family:Nixmat;-inkscape-font-specification:'Nixmat, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#0088aa">CONNECTING LIVES</tspan></tspan></text>
