@@ -122,7 +122,7 @@ const Navbar = () => {
                 <item className={styles.item}>
                    <div className={styles.link}>
                      <IoIosMail className={styles.menuIcon}/>
-                     <Link href='/about'>Contact</Link>
+                     <Link href='/contact-us'>Contact</Link>
                    </div>
                 </item>
                 

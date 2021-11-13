@@ -9,14 +9,22 @@
 }
 .contactCard {
   width: 2000px;
-  height: 200px;
+  height: auto;
   box-sizing: border-box;
-  color: #071a52;
-  letter-spacing: 1px;
+  color: teal;
+  background-color: #f0f0f0;
+  letter-spacing: 2px;
+  font-weight: bold;
   margin: 20px 10px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   padding: 10px;
-  background-color: #e3f2fd;
+}
+.header {
+  font-size: 23px;
+  letter-spacing: 1px;
+}
+.content {
+  color: cornflowerblue;
 }
 
 @media only screen and (max-width: 700px) {

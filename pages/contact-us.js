@@ -10,9 +10,23 @@ function Contact() {
                 <Image src={contact}/>
             </div>
             <div className={styles.contacts}>
-                <div className={styles.contactCard}></div>
-                <div className={styles.contactCard}></div>
-                <div className={styles.contactCard}></div>
+                <div className={styles.contactCard}>
+                    <div className={styles.header}>
+                        Location
+                    </div>
+                    <p className={styles.content}> Aquidental House, Westlands, Nairobi</p>
+
+                    <div className={styles.header}>
+                        Email
+                    </div>
+                    <p className={styles.content}> Office@gramics.co.ke</p>
+
+                    <div className={styles.header}>
+                        Phone
+                    </div>
+                    <p className={styles.content}> 0724 647 209</p>
+                </div>
+               
 
             </div>
             <div >
