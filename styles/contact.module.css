@@ -11,20 +11,18 @@
   width: 2000px;
   height: auto;
   box-sizing: border-box;
-  color: teal;
-  background-color: #f0f0f0;
+  color: white;
+  background-image: url("../public/contactbackground.jpg");
   letter-spacing: 2px;
   font-weight: bold;
-  margin: 20px 10px;
+  margin: 20px 0px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   padding: 10px;
 }
 .header {
   font-size: 23px;
   letter-spacing: 1px;
-}
-.content {
-  color: cornflowerblue;
+  margin: 20px 0 10px;
 }
 
 @media only screen and (max-width: 700px) {
@@ -32,6 +30,6 @@
     flex-direction: column;
   }
   .contactCard {
-    width: 95%;
+    width: 100%;
   }
 }

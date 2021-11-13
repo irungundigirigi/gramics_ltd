@@ -14,20 +14,18 @@ function Contact() {
                     <div className={styles.header}>
                         Location
                     </div>
-                    <p className={styles.content}> Aquidental House, Westlands, Nairobi</p>
+                    <span className={styles.content}> Aquidental House, Westlands, Nairobi</span>
 
                     <div className={styles.header}>
                         Email
                     </div>
-                    <p className={styles.content}> Office@gramics.co.ke</p>
+                    <span className={styles.content}> Office@gramics.co.ke</span>
 
                     <div className={styles.header}>
                         Phone
                     </div>
-                    <p className={styles.content}> 0724 647 209</p>
+                    <span className={styles.content}> 0724 647 209</span>
                 </div>
-               
-
             </div>
             <div >
             </div>
