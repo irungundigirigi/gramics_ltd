@@ -12,6 +12,7 @@ export default function Home() {
     <Head>
       <meta name="Gramics Power Systems |Solar Panels | Solar Water Heating Systems" description="" />
       <title>Gramics -Solar solutions | Electrical supplies and Installations |</title>
+      <link rel="icon" sizes="32x32" href="icon.png" />
 
 
     </Head>
