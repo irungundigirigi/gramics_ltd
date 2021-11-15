@@ -117,7 +117,7 @@ const Navbar = () => {
                 <item className={styles.item}>
                    <div className={styles.link}>
                      <GiElectric className={styles.menuIcon}/>
-                     <Link href='/about'>Projects</Link>
+                     <Link href='/projects'>Projects</Link>
                    </div>
                 </item>
                 <item className={styles.item}>
