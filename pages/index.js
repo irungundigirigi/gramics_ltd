@@ -8,7 +8,12 @@ import Welcome from '../components/Welcome'
 
 
 export default function Home() {
-  return (
+  return (<>  
+    <Head>
+      <meta name="Gramics Power Systems |Solar Panels | Solar Water Heating Systems" description="" />
+      <title>Gramics |Solar solutions |Electrical supplies and Installations|</title>
+
+    </Head>
     <div className={styles.pageContainer}>
       <Welcome />
       <div className={styles.aboutUs}>
@@ -36,5 +41,6 @@ export default function Home() {
       </p>
       </div>
     </div>
+    </>
   )
 }
