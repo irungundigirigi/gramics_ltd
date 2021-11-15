@@ -10,12 +10,13 @@ import Welcome from '../components/Welcome'
 export default function Home() {
   return (<>  
     <Head>
-      <meta name="Gramics Power Systems |Solar Panels | Solar Water Heating Systems" description="" />
+      <meta name= "description" content="Gramics Power Systems Solar Panels | Solar Water Heating Systems" />
+      <meta name= "keywords" content="Gramics Power Systems Solar Panels | Solar Water Heating Systems" />
       <title>Gramics -Solar solutions | Electrical supplies and Installations |</title>
       <link rel="icon" sizes="32x32" href="icon.png" />
-
-
     </Head>
+
+
     <div className={styles.pageContainer}>
       <Welcome />
       <div className={styles.aboutUs}>
