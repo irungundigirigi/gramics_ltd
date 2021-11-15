@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import Link from 'next/link';
 import Image from 'next/image'
+import Head from 'next/head'
 import styles from '../styles/Navbar.module.css';
 import Logo from '../public/icon.svg';
 import { FaBars, FaSolarPanel, FaToggleOff }  from 'react-icons/fa';
