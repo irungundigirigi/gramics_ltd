@@ -5,4 +5,39 @@
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
+    <url>
+        <loc>https://gramics.co.ke/solutions/solarpanels'</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+     <url>
+        <loc>https://gramics.co.ke/solutions/solar-water-pumping-system'</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+     <url>
+        <loc>https://gramics.co.ke/solutions/solar-water-heating-system'</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://gramics.co.ke/solutions/control-panels'</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://gramics.co.ke/solutions/transformers'</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+     <url>
+        <loc>https://gramics.co.ke/solutions/generators'</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://gramics.co.ke/featured'</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
 </urlset>

@@ -37,6 +37,13 @@ const Navbar = () => {
     
     return (
     <>
+      <Head>
+      <meta name= "description" content="Gramics Power Systems Solar Panels | Solar Water Heating Systems" />
+      <meta name= "keywords" content="Gramics,Gramics Power, solar, panels,water,pumping system, renewableenergy, energyKenya"/>
+      <title>Gramics -Solar solutions | Electrical supplies and Installations |</title>
+      <link rel="icon" sizes="32x32" href="icon.png" />
+      </Head>
+
        <nav className={styles.nav}>
             <div className={styles.logoContainer}>
                 <div className={styles.logo}>
