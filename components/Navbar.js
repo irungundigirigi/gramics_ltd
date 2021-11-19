@@ -71,10 +71,7 @@ const Navbar = () => {
                         </div>
                    </div>
 
-                   <Link href='/projects'>
-                      <span className={styles.Link}>PROJECTS</span >
-                   </Link>
-
+                  
                    <Link href='/featured'>
                       <span className={styles.Link}>FEATURED</span >
                    </Link>
@@ -114,12 +111,7 @@ const Navbar = () => {
                    </div>
                 </item>
                 
-                <item className={styles.item}>
-                   <div className={styles.link}>
-                     <GiElectric className={styles.menuIcon}/>
-                     <Link href='/projects'>Projects</Link>
-                   </div>
-                </item>
+               
                 <item className={styles.item}>
                    <div className={styles.link}>
                      <BiNews className={styles.menuIcon}/>
