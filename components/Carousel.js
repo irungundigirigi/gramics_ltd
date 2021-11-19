@@ -8,6 +8,7 @@ import DataCentre from '../public/data-centre.png';
 import Transformers from '../public/transformers.png';
 import GeneratorSales from '../public/GeneratorsSales.png';
 import Renewable from '../public/renewable.png'
+import cleanEnergy from '../public/cleanEnergy.png'
 
 
 
@@ -27,7 +28,7 @@ const Carousel = () => {
                 <Image src={Solar} className={styles.sliderImg}/>
                 <Image src={SolarHeaters} className={styles.sliderImg}/>
                 <Image src={DataCentre} className={styles.sliderImg}/>
-                <Image src={Renewable} className={styles.sliderImg}/>
+                <Image src={cleanEnergy} className={styles.sliderImg}/>
                 <Image src={GeneratorSales} className={styles.sliderImg}/>
             </AliceCarousel>
         </div>
