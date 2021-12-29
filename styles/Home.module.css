@@ -24,4 +24,9 @@
   .aboutUs {
     width: 100%;
   }
+  .socialIcon {
+    color: #364f6b;
+    margin: 20px 30px;
+    font-size: 20px;
+  }
 }
