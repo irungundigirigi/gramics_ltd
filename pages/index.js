@@ -16,10 +16,10 @@ export default function home() {
                     <Link href="https://twitter.com/gramics">
                         <FaTwitter className={styles.socialIcon}/>
                     </Link>
-                    <Link href="https://twitter.com/gramics">
+                    <Link href="https://facebook.com/Gramics-105801665240812/">
                         <FaFacebook className={styles.socialIcon}/>
                     </Link>
-                    <Link href="https://twitter.com/gramics">
+                    <Link href="https://instagram.com/gramicspower">
                     <FaInstagram className={styles.socialIcon }/>
                     </Link>
                 </div>
