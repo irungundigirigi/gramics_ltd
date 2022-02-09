@@ -39,6 +39,12 @@ const Navbar = () => {
     return (
     <>
       <Head>
+
+      <meta property="og:title" content="Get started with your solar journey." />
+      <meta property="og:description" content="We are commited to providing customized Solar solutions to every client." />
+      <meta property="og:image" content="https://gramics.co.ke/solarS.png" />
+
+
       <meta name= "description" content="Gramics Power Systems Solar Panels | Solar Water Heating Systems" />
       <meta name= "keywords" content="Gramics,Gramics Power, solar, panels,water,pumping system, renewableenergy, energyKenya"/>
       <title>Gramics -Solar solutions | Electrical supplies and Installations |</title>

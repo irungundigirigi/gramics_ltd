@@ -9,9 +9,6 @@ import Transformers from '../public/transformers.png';
 import GeneratorSales from '../public/GeneratorsSales.png';
 import Renewable from '../public/renewable.png'
 import cleanEnergy from '../public/cleanEnergy.png'
-
-
-
 import Image from 'next/image';
 import { Transition } from 'react-transition-group';
 
