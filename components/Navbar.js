@@ -48,7 +48,7 @@ const Navbar = () => {
       <meta name="twitter:title" content="Get started with your solar journey."/>
       <meta name="twitter:description" content="We are commited to providing customized Solar solutions and electrical installations to every client."/>
       <meta name="twitter:site" content="@gramics"/>
-      <meta name="twitter:image" content="https://gramics.co.ke/metaSolar.jpg"/>
+      <meta name="twitter:image" content="https://gramics.co.ke/meta_image.jpg"/>
       <meta name="twitter:creator" content="@irungundigirigi"/>
 
 
