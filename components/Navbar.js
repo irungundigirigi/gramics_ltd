@@ -44,6 +44,13 @@ const Navbar = () => {
       <meta property="og:description" content="We are commited to providing customized Solar solutions to every client." />
       <meta property="og:image" content="https://gramics.co.ke/metaSolar.jpg" />
 
+      <meta name="twitter:card" content="summary_large_image"/>
+      <meta name="twitter:title" content="Get started with your solar journey."/>
+      <meta name="twitter:description" content="We are commited to providing customized Solar solutions and electrical installations to every client."/>
+      <meta name="twitter:site" content="@gramics"/>
+      <meta name="twitter:image" content="https://gramics.co.ke/metaSolar.jpg"/>
+      <meta name="twitter:creator" content="@irungundigirigi"/>
+
 
       <meta name= "description" content="Gramics - Solar Solutions Electrical Installations" />
       <meta name= "keywords" content="Gramics,Gramics Power, solar, panels,water,pumping system, renewableenergy, energyKenya"/>
