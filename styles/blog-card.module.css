@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 .blogCard {
   color: #512b58;
   width: 450px;
@@ -10,6 +10,7 @@
   background-color: white;
 }
 .blogImageContainer {
+  position: relative;
   width: 100%;
   margin: 0 auto;
   height: auto;
@@ -28,6 +29,7 @@
 .blogHeader {
   margin-bottom: 10px;
   font-weight: 600;
+  font-family: "Poppins", sans-serif;
 }
 .line {
   width: 20px;
@@ -38,9 +40,11 @@
 .paragraphOn {
   max-height: 0px;
   overflow-y: hidden;
+  font-size: 20px;
 }
 .paragraph {
   max-height: auto;
+  font-size: 20px;
 }
 .btnHolder {
   display: flex;
@@ -63,5 +67,13 @@
 @media only screen and (max-width: 700px) {
   .blogCard {
     width: 100%;
+  }
+  .blogHeader {
+    position: absolute;
+    top: 200px;
+    color: white;
+    font-size: 30px;
+    margin: 0 20px;
+    text-align: center;
   }
 }
